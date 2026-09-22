@@ -1,5 +1,9 @@
 # ☠ Warhammer 40,000 Combat Calculator
 
+* This fork allows for multiple weapon profiles. The shoting and fight profile of the attacker is built up and then simulated agaisn a selected enemy. These profiles can be edited and changed, I prefered this to rather see the entire turn capability of a unit. Their is also a battle context summary so that you cna keep track of what detachments and stratagems you have used to provide the output that you have obtained.
+
+* I also added a results saving funciton, so that you can go back to view results of different units combinations to directly compare between different results.
+
 A fully offline-capable, single-file combat calculator for **Warhammer 40,000 10th Edition**. No build tools, no install — open `index.html` in any browser, or host via GitHub Pages.
 
 **Live unit search powered by [Wahapedia](https://wahapedia.ru)** — search any unit and auto-populate attacker weapons and defender stats.
