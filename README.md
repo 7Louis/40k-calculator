@@ -1,9 +1,5 @@
 # ☠ Warhammer 40,000 Combat Calculator
 
-This fork simply changes the calculation from a single calculation to multiple weapons and phases. You now add a weapon type and select wich pahse it needs to be added to. This provides a better overview for a complete turn capability for a unit, if you wished to see it so.
-
-Also added a save and comparison capability. Results will be saved and can be compared to differrent units. I might have broken the data fetch capability.
-
 A fully offline-capable, single-file combat calculator for **Warhammer 40,000 10th Edition**. No build tools, no install — open `index.html` in any browser, or host via GitHub Pages.
 
 **Live unit search powered by [Wahapedia](https://wahapedia.ru)** — search any unit and auto-populate attacker weapons and defender stats.
