@@ -26,7 +26,7 @@ A fully offline-capable, single-file combat calculator for **Warhammer 40,000 10
 - **Sustained Hits 1 / Sustained Hits 2** — Critical Hits generate extra hits
 - **Lethal Hits** — Critical Hits auto-wound
 - **Devastating Wounds** — Critical Wounds deal mortal wounds equal to Damage, bypassing saves
-- **Twin-linked** — re-roll wound rolls of 1
+- **Twin-linked** — re-roll full wound rolls
 - **Anti-Infantry 4+** — Critical Wounds on 4+ vs Infantry keyword targets
 - **Melta** (half range) — adds average D6 bonus damage
 - **Heavy** — +1 to hit if unit didn't move
@@ -56,7 +56,7 @@ A fully offline-capable, single-file combat calculator for **Warhammer 40,000 10
 ## Usage
 
 ### Option A — Local
-1. Download `index.html`
+1. Download `40kcalculator.html` and `40kcalculator_comparisons.html`
 2. Open it in any modern browser — no server needed
 
 ### Option B — GitHub Pages
@@ -68,7 +68,7 @@ A fully offline-capable, single-file combat calculator for **Warhammer 40,000 10
 
 ## How It Works
 
-### Unit Search
+### Unit Search - I might have broken this with this fork, I've mainly focused on the weapon profile and phases simulation.
 The calculator fetches three CSV files from Wahapedia's public data export on page load:
 - `Datasheets.csv` — unit names and faction IDs
 - `Datasheets_models.csv` — T, W, Sv, invuln per model
